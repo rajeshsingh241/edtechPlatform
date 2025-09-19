@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# 🎓 EdTech Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+The **EdTech Platform** is an interactive web application designed for **both students and teachers**, providing a seamless online learning and teaching experience.  
 
-### `npm start`
+- **Students** can browse courses, track progress, and manage their learning journey.  
+- **Teachers** can create, update, and manage courses, lessons, and student progress.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This platform is built using **React** for the frontend, with a secure backend powered by **Node.js, Express.js, JWT, and Bcrypt**.  
+It demonstrates **CRUD operations, authentication, password hashing, and route protection**, making it a complete example of a modern, secure web application.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Reference Deployment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+For a visual demonstration of the project, you can view the deployed version here:  
 
-### `npm run build`
+[StudyNotion Frontend - Vercel](https://studynotion-frontend.vercel.app/)  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+>  Note: This link is provided as a reference to show how the project appears when deployed. The code itself is original and can be run locally.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## 🧩 Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **CRUD Operations**: Create, Read, Update, Delete functionality for courses and users.  
+- **Authentication & Security**:  
+  - Sign up and login using **JWT (JSON Web Tokens)**.  
+  - **Bcrypt** password hashing for secure storage.  
+  - Route protection with token-based authentication.  
+- **Frontend UI**: Built with React, responsive, and mobile-friendly.  
+- **Routing**: Smooth client-side routing with React Router.  
+- **Data Validation**: Ensures only valid data is stored in the database.  
+- **Extensible**: Easy to integrate with additional backend features or APIs.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Frontend**: React, React Router  
+- **Backend**: Node.js, Express.js  
+- **Authentication & Security**: JWT, Bcrypt  
+- **Styling**: Tailwind CSS / CSS Modules  
+- **Database**: MongoDB / Any NoSQL or SQL database (optional)  
+- **Deployment**: Vercel / Netlify / GitHub Pages (frontend)  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ⚡ Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
 
-### Code Splitting
+Make sure you have **Node.js** and **npm** installed:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+node -v
+npm -v
