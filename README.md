@@ -16,7 +16,7 @@ It demonstrates **CRUD operations, authentication, password hashing, and route p
 
 For a visual demonstration of the project, you can view the deployed version here:  
 
-[StudyNotion Frontend - Vercel](https://studynotion-frontend.vercel.app/)  
+[StudyNotion Frontend - Vercel](https://studynotion-master.vercel.app/)  
 
 >  Note: This link is provided as a reference to show how the project appears when deployed. The code itself is original and can be run locally.  
 
