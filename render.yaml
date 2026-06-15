@@ -3,6 +3,7 @@ services:
   - type: web
     name: edtech-backend
     runtime: node
+    plan: free
     rootDir: server
     buildCommand: npm install
     startCommand: node index.js
@@ -16,7 +17,7 @@ services:
       - key: JWT_SECRET
         sync: false
       - key: FOLDER_NAME
-        sync: false
+        value: uploads
       - key: MAIL_HOST
         sync: false
       - key: MAIL_USER
@@ -24,11 +25,7 @@ services:
       - key: MAIL_PASS
         sync: false
       - key: MAIL_PORT
-        sync: false
-      - key: RAZORPAY_KEY
-        sync: false
-      - key: RAZORPAY_SECRET
-        sync: false
+        value: 587
       - key: CLOUD_NAME
         sync: false
       - key: API_KEY
@@ -40,6 +37,7 @@ services:
   - type: web
     name: edtech-frontend
     runtime: static
+    plan: free
     buildCommand: npm install && npm run build
     staticPublishPath: build
     envVars:
