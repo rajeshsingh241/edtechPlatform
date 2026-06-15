@@ -3,7 +3,6 @@ services:
   - type: web
     name: edtech-backend
     runtime: node
-    plan: free
     rootDir: server
     buildCommand: npm install
     startCommand: node index.js
@@ -37,7 +36,6 @@ services:
   - type: web
     name: edtech-frontend
     runtime: static
-    plan: free
     buildCommand: npm install && npm run build
     staticPublishPath: build
     envVars:
