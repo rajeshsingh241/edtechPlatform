@@ -2,7 +2,7 @@ import axios from "axios"
 
 // ✅ Create instance with backend config
 export const axiosInstance = axios.create({
-  baseURL: "http://localhost:5000/api/v1", // prefix so you don’t repeat
+  baseURL: process.env.REACT_APP_BASE_URL || "http://localhost:5000/api/v1", // prefix so you don’t repeat
   withCredentials: true, // allow cookies/JWT
 });
 
