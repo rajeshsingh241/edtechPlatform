@@ -37,10 +37,10 @@
     "autoprefixer": "^10.4.21",
     "npm-force-resolutions": "^0.0.10",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.13"
+    "tailwindcss": "^3.4.17"
   },
   "resolutions": {
-    "tailwindcss": "^4.1.13"
+    "tailwindcss": "^3.4.17"
   },
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
@@ -51,7 +51,7 @@
     "server": "cd server && npm run dev",
     "dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm start\" \"npm run server\""
   },
-  "proxy": "http://localhost:4000",
+  "proxy": "http://localhost:5000",
   "eslintConfig": {
     "extends": [
       "react-app",
